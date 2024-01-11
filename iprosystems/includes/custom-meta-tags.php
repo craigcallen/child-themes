@@ -3,7 +3,7 @@ add_action('wp_head', 'custom_meta_tags');
 function custom_meta_tags(){
 ?>
 	<script src="https://kit.fontawesome.com/4525b274fc.js" crossorigin="anonymous"></script>
-	<meta name="apple-mobile-web-app-title" content="ARG">
+	<meta name="apple-mobile-web-app-title" content="ARG - STAYED">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, viewport-fit=cover"/>
 	<meta name="theme-color" media="(prefers-color-scheme: light)" content="#FFFFFF">
 	<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#FFFFFF">
