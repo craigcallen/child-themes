@@ -27,6 +27,7 @@ acfe_register_post_type(array(
         'search_items' => 'Search Rewards',
         'not_found' => 'Reward Not Found',
         'all_items' => 'All Rewards',
+        'archives' => 'Rewards',
     ),
     'menu_position' => '',
     'menu_icon' => 'dashicons-awards',
@@ -34,7 +35,7 @@ acfe_register_post_type(array(
     'show_in_menu' => true,
     'show_in_nav_menus' => true,
     'show_in_admin_bar' => true,
-    'has_archive' => false,
+    'has_archive' => 'rewards',
     'rewrite' => true,
     'capability_type' => 'post',
     'capabilities' => array(),
@@ -43,7 +44,7 @@ acfe_register_post_type(array(
     'rest_base' => 'rewards',
     'rest_controller_class' => 'WP_REST_Posts_Controller',
     'acfe_archive_template' => '',
-    'acfe_archive_ppp' => 10,
+    'acfe_archive_ppp' => 13,
     'acfe_archive_orderby' => 'date',
     'acfe_archive_order' => 'DESC',
     'acfe_archive_meta_key' => '',
@@ -59,6 +60,6 @@ acfe_register_post_type(array(
         'php',
         'json',
     ),
-    'modified' => 1700161265,
+    'modified' => 1704996518,
 ));
 
